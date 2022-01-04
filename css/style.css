@@ -11,6 +11,7 @@ h1 {
 
 section {
   display: flex;
+  margin-bottom: 100px;
 }
 
 .half-width {
@@ -18,7 +19,7 @@ section {
   padding: 3%;
 }
 .half-width img{
-    width: 88%;
+    width: 90%;
 }
 .hire-me-btn{
     text-decoration: none;
@@ -31,4 +32,9 @@ section {
 .top-banner{
     background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
+}
+.middle-banner{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
